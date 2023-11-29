@@ -26,10 +26,9 @@ To run this project, ensure you have the following:
 Python 3.x
 Libraries: NumPy, Matplotlib, scikit-image, TensorFlow
 Install the required libraries using pip:
-
-bash
-Copy code
+```
 pip install numpy matplotlib scikit-image tensorflow
+```
 Running the Project
 Data Generation: Use generate_examples to create a training dataset.
 Model Training: Run the section in the notebook that defines and trains the CNN model.
