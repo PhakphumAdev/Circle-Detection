@@ -1,7 +1,7 @@
-#Overview
+# Overview
 This project is developed as a solution for the Circle Detection ML Challenge and focuses on developing a machine learning model capable of detecting circles in noisy images. Using deep learning techniques, specifically Convolutional Neural Networks (CNNs), the model identifies the location and size of circles embedded in images with various noise levels.
 
-#Project Structure
+# Project Structure
 The Jupyter notebook contains the following key components:
 
 1. Helper Functions
@@ -37,6 +37,6 @@ Evaluation: Use the provided evaluation function to assess the model's performan
 Model Metrics
 After training, the model's performance is evaluated using the IOU metric at different thresholds (0.5, 0.75, 0.9, 0.95). The results are printed at the end of the notebook.
 
-#Conclusion
+# Conclusion
 This project demonstrates the application of CNNs in a practical computer vision task, showcasing the ability to detect geometric shapes in noisy environments. The modular design allows for easy experimentation with different model architectures and parameters.
 
