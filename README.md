@@ -35,7 +35,8 @@ Model Training: Run the section in the notebook that defines and trains the CNN 
 Evaluation: Use the provided evaluation function to assess the model's performance on a test dataset.
 Model Metrics
 After training, the model's performance is evaluated using the IOU metric at different thresholds (0.5, 0.75, 0.9, 0.95). The results are printed at the end of the notebook.
-
+# Result 
+{0.5: 0.7135, 0.75: 0.274, 0.9: 0.029, 0.95: 0.0015}
 # Conclusion
 This project demonstrates the application of CNNs in a practical computer vision task, showcasing the ability to detect geometric shapes in noisy environments. The modular design allows for easy experimentation with different model architectures and parameters.
 
